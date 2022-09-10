@@ -30,3 +30,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 - ng add @ng-bootstrap/ng-bootstrap
 - npm i @angular/localize
+- npm i ng2-validation
