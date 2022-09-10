@@ -1,4 +1,4 @@
-import { NotFound } from './not-found/not-found.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
@@ -12,7 +12,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
         MenuComponent,
         HomeComponent,
         FooterComponent,
-        NotFound
+        NotFoundComponent
     ],
     imports: [
         CommonModule,
@@ -23,7 +23,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
         MenuComponent,
         HomeComponent,
         FooterComponent,
-        NotFound
+        NotFoundComponent
     ]
 })
 export class NavagacaoModule{}
