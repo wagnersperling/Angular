@@ -8,6 +8,7 @@ import { LoginComponent } from './login/login.component';
 import { ContaRoutingModule } from './conta.route';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
+import { ContaGuard } from './services/conta.guard';
 
 
 
@@ -26,7 +27,8 @@ import {HttpClientModule} from '@angular/common/http';
     HttpClientModule
   ],
   providers: [
-    ContaService
+    ContaService,
+    ContaGuard
   ]
 })
 export class ContaModule { }
